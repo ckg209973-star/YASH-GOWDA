@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Yash Gowda</title>
 
-<!-- ✅ Facebook Pixel Code -->
+<!-- ✅ Facebook Pixel -->
 <script>
 !function(f,b,e,v,n,t,s){
 if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -24,7 +24,6 @@ fbq('track', 'PageView');
 <img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1977805139818585&ev=PageView&noscript=1"/>
 </noscript>
-<!-- ✅ End Pixel Code -->
 
 <style>
 *{
@@ -95,14 +94,8 @@ h1{
     box-shadow:0 0 10px #00ffe1;
 }
 
-.redirect{
-    color:#ff4df0;
-    font-size:28px;
-    margin:15px 0;
-    font-weight:bold;
-}
+/* ❌ Redirect text removed */
 
-/* ✅ Zoom Out Button */
 .join-btn{
     display:block;
     margin:20px auto;
@@ -139,28 +132,12 @@ h1{
 
     <div class="sub">Cricket & Tennis Free Tips • Trusted on Telegram</div>
 
-    <div class="redirect" id="count">Redirecting in 5</div>
-
-    <!-- ✅ Telegram Link -->
+    <!-- ✅ Only Button (No Redirect) -->
     <a href="https://t.me/+U-jCLwP7n-FmMjU1" class="join-btn">
         JOIN TELEGRAM CHANNEL
     </a>
 
 </div>
-
-<script>
-let time = 5;
-let count = document.getElementById("count");
-
-let timer = setInterval(()=>{
-    time--;
-    count.innerHTML = "Redirecting in " + time;
-    if(time <= 0){
-        clearInterval(timer);
-        window.location.href = "https://t.me/+U-jCLwP7n-FmMjU1";
-    }
-},1000);
-</script>
 
 </body>
 </html>
