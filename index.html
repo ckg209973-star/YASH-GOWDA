@@ -1,36 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tipper Page</title>
 
 <!-- Facebook Pixel -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+!function(f,b,e,v,n,t,s){
+if(f.fbq)return;
+n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
 if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];
 t=b.createElement(e);t.async=!0;
-t.src=v;
-s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}
-(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)
+}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
 fbq('init', '1977805139818585');
 fbq('track', 'PageView');
 </script>
 
 <style>
-
 body{
 margin:0;
 font-family:Arial, Helvetica, sans-serif;
-background:#f2f2f2;
+background:#e9ecef;
 display:flex;
 justify-content:center;
 }
@@ -40,42 +36,45 @@ width:100%;
 max-width:450px;
 text-align:center;
 background:white;
+box-shadow:0 0 15px rgba(0,0,0,0.15);
+border-radius:10px;
+overflow:hidden;
 }
 
 .header{
-background:#2f7d68;
-height:130px;
+background:linear-gradient(90deg,#1d976c,#2f7d68);
+height:140px;
 }
 
 .profile{
-margin-top:-50px;
+margin-top:-55px;
 }
 
 .profile img{
-width:100px;
-height:100px;
+width:110px;
+height:110px;
 border-radius:50%;
-border:4px solid white;
+border:5px solid white;
 object-fit:cover;
 }
 
 .name{
 font-size:22px;
 font-weight:bold;
-margin-top:8px;
+margin-top:10px;
 }
 
 .members{
-color:gray;
+color:#666;
 font-size:14px;
-margin-top:3px;
+margin-top:5px;
 }
 
 .notice{
-background:#f4e6c6;
+background:#f7edd6;
 margin:15px;
-padding:15px;
-border-radius:8px;
+padding:16px;
+border-radius:10px;
 font-size:14px;
 line-height:22px;
 }
@@ -89,16 +88,18 @@ font-weight:bold;
 display:inline-block;
 background:#28a745;
 color:white;
-padding:10px 20px;
-font-size:16px;
-border-radius:8px;
+padding:12px 24px;
+font-size:17px;
+border-radius:10px;
 text-decoration:none;
 font-weight:bold;
+transform:scale(0.85);   /* Zoom Out */
 transition:0.3s;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
 }
 
 .join-btn:hover{
-transform:scale(1.05);
+transform:scale(1);
 }
 
 .bottom{
@@ -106,8 +107,8 @@ margin:15px;
 font-size:13px;
 color:#777;
 }
-
 </style>
+
 </head>
 
 <body>
@@ -120,9 +121,7 @@ color:#777;
 <img src="https://i.postimg.cc/tJr7jh4m/IMG-20260418-222338-863.jpg">
 </div>
 
-<div class="name">
-YASH GOWDA™2017 ✅
-</div>
+<div class="name">YASH GOWDA™2017 ✅</div>
 
 <div class="members">
 150,000+ Members • Online<br>
@@ -130,7 +129,6 @@ YASH GOWDA™2017 ✅
 </div>
 
 <div class="notice">
-
 📢 <b>Notice:</b> Aaj ka match report aa gaya hai.<br>
 📢 గమనిక: ఈరోజు మ్యాచ్ రిపోర్ట్ వచ్చేసింది.<br><br>
 
@@ -139,7 +137,6 @@ YASH GOWDA™2017 ✅
 
 Join karke check karein. Entry Free hai.<br>
 జాయిన్ అయ్యి చెక్ చేయండి. ఎంట్రీ ఫ్రీ.
-
 </div>
 
 <a href="https://t.me/+apNaY4P2Kog0N2Y1" class="join-btn">
